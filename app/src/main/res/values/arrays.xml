@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="time">
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minute</item>
+        <item>3 minute</item>
+        <item>4 minute</item>
+        <item>5 minute</item>
+    </string-array>
+    <string-array name="sound">
+        <item>exorcist sound 1</item>
+        <item>woman scream 2</item>
+        <item>woman short 3</item>
+        <item>man scream 4</item>
+        <item>cyber scream 5</item>
+        <item>man light 6</item>
+    </string-array>
+</resources>

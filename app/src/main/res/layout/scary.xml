@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/scaryLayout" android:background="@drawable/scarymaze" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidsam="http://schemas.android.com/apk/res/com.jameselsey">
+    <LinearLayout android:orientation="vertical" android:id="@id/scaryLayoutAd" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <RelativeLayout android:orientation="vertical" android:id="@id/scaryLayoutAdBottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:gravity="center" android:id="@id/logoQuizPromo" android:visibility="gone" android:clickable="true" android:layout_width="320.0dip" android:layout_height="50.0dip" android:onClick="promo" />
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="back" android:onClick="back" style="@style/startButtonStyle" />
+                <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="exit" android:onClick="exit" style="@style/startButtonStyle" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

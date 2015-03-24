@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="time_prompt">Time</string>
+    <string name="sound_prompt">Sound</string>
+    <string name="image_prompt">Choose the image</string>
+    <string name="app_name">Scare Your Friends</string>
+    <string name="scary_maze">Scary maze</string>
+    <string name="btn_label_start">Start Hypnotize</string>
+</resources>

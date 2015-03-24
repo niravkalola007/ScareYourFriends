@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/mainLayout" android:background="@color/mainLayoutBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip">
+        <ImageView android:id="@id/imageView1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/hypnotize_title" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/image_prompt" />
+        <Spinner android:id="@id/spinnerImage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:prompt="@string/image_prompt" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Time" />
+        <Spinner android:id="@id/spinnerTime" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:prompt="@string/time_prompt" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Sound" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Spinner android:id="@id/spinnerSound" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:prompt="@string/sound_prompt" />
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="play sound" android:onClick="playSound" />
+        </LinearLayout>
+        <Button android:layout_gravity="center" android:id="@id/btnStart" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="Start scare your friend" android:onClick="startScary" style="@style/startButtonStyle" />
+        <Button android:layout_gravity="center" android:id="@id/rateThisApp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="Rate this app here" android:onClick="rate" style="@style/greenButtonStyle" />
+    </LinearLayout>
+</ScrollView>

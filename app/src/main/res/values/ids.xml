@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="mainLayout">false</item>
+    <item type="id" name="imageView1">false</item>
+    <item type="id" name="spinnerImage">false</item>
+    <item type="id" name="spinnerTime">false</item>
+    <item type="id" name="spinnerSound">false</item>
+    <item type="id" name="btnStart">false</item>
+    <item type="id" name="rateThisApp">false</item>
+    <item type="id" name="scaryLayout">false</item>
+    <item type="id" name="scaryLayoutAd">false</item>
+    <item type="id" name="scaryLayoutAdBottom">false</item>
+    <item type="id" name="logoQuizPromo">false</item>
+    <item type="id" name="spinnerImageEntry">false</item>
+    <item type="id" name="spinnerTextEntry">false</item>
+</resources>
